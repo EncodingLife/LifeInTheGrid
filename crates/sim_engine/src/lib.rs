@@ -1,5 +1,7 @@
 use shipyard::World;
 
+pub use apis;
+
 #[derive(Debug)]
 pub struct SimWorld(World);
 

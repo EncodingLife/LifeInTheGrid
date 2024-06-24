@@ -9,3 +9,4 @@ edition = "2021"
 bevy = "0.13.2"
 sim_engine = { path = "../sim_engine"}
 apis = { path = "../../../apis", features = ["bevy"]}
+simple_logger = "5.0.0"

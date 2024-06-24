@@ -14,7 +14,7 @@ fn draw_map(
     mut commands: Commands,
     mut meshes: ResMut<Assets<Mesh>>,
     mut materials: ResMut<Assets<ColorMaterial>>) {
-        let world_shape = HexWorldShape::Hexagon(50);
+        let world_shape = HexWorldShape::Hexagon(20);
         let engine = SimulationEngine::new(world_shape);
 
         let cell_size = 50.0;

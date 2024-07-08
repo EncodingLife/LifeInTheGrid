@@ -1,0 +1,7 @@
+[package]
+name = "courtyard"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sim_engine = { path = "../sim_engine"}

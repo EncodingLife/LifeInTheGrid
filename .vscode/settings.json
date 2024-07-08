@@ -1,7 +1,8 @@
 {
     "rust-analyzer.linkedProjects": [
         ".\\crates\\sim_engine\\Cargo.toml",
-        ".\\crates\\sim_interface\\Cargo.toml"
+        ".\\crates\\sim_interface\\Cargo.toml",
+        ".\\crates\\courtyard\\Cargo.toml"
     ],
     "files.exclude": {"**/target": true}
 }
